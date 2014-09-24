@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Survival</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="impress">
+
+        <!-- First Decission Layer -->
+        <div id="node1" class="step slide">
+            <div class="slide-text">
+                <p>Node 1</p>
+                <br />
+                <p>Which option do you choose?</p>
+                <p><a href="#node2">Option 1 (Left)</a></p>
+                <p>or</p>
+                <p><a href="#node3">Option 2 (Right)</a></p>
+            </div>
+        </div>
+
+        <!-- Second Decision Layer -->
+        <div id="node2" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>Node 2</p>
+                <br />
+                <p>Which option do you choose?</p>
+                <p><a href="#node4">Option 1 (Up)</a></p>
+                <p>or</p>
+                <p><a href="#node5">Option 2 (Left)</a></p>
+            </div>
+        </div> 
+
+        <div id="node3" class="step slide" data-x="1500">
+            <div class="slide-text">
+                <p>Node 3</p>
+                <br />
+                <p>Which option do you choose?</p>
+                <p><a href="#node6">Option 1 (Down)</a></p>
+                <p>or</p>
+                <p><a href="#node7">Option 2 (Right)</a></p>
+            </div>
+        </div>
+        
+        <!-- Third Decision Layer -->
+        <div id="node4" class="step slide" data-x="-1500" data-y="-750">
+            <div class="slide-text">
+                <p>Game Over, You Lose... 1</p>
+            </div>
+            <div class="menu">
+                <a href="#node1">START OVER</a>
+            </div>
+        </div>
+        <div id="node5" class="step slide" data-x="-2500">
+            <div class="slide-text">
+                <p>Game Over, You Lose... 2</p>
+            </div>
+            <div class="menu">
+                <a href="#node1">START OVER</a>
+            </div>
+        </div>
+        <div id="node6" class="step slide" data-x="1500" data-y="750" >
+            <div class="slide-text">
+                <p>Game Over, You Lose... 3</p>
+            </div>
+            <div class="menu">
+                <a href="#node1">START OVER</a>
+            </div>
+        </div>
+        <div id="node7" class="step slide" data-x="2500">
+            <div class="slide-text">
+                <p>Game Over, You Win!!!</p>
+            </div>
+            <div class="menu">
+                <a href="#node1">START OVER</a>
+            </div>
+        </div>
+
+
+    
+    </div>
+
+    <!-- JavaScript Section -->
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+
+</body>
+</html>

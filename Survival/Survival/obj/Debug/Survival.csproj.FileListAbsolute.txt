@@ -1,0 +1,6 @@
+D:\COMP397\Survival\Survival\bin\Survival.dll.config
+D:\COMP397\Survival\Survival\bin\Survival.dll
+D:\COMP397\Survival\Survival\bin\Survival.pdb
+D:\COMP397\Survival\Survival\obj\Debug\Survival.csprojResolveAssemblyReference.cache
+D:\COMP397\Survival\Survival\obj\Debug\Survival.dll
+D:\COMP397\Survival\Survival\obj\Debug\Survival.pdb
