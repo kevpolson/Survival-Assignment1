@@ -30,6 +30,8 @@
                 <p><a href="#node4">Option 1 (Up)</a></p>
                 <p>or</p>
                 <p><a href="#node5">Option 2 (Left)</a></p>
+                <p>or</p>
+                <p><a href="#node1">Go Back (Right)</a></p>
             </div>
         </div> 
 
@@ -41,11 +43,55 @@
                 <p><a href="#node6">Option 1 (Down)</a></p>
                 <p>or</p>
                 <p><a href="#node7">Option 2 (Right)</a></p>
+                <p>or</p>
+                <p><a href="#node1">Go Back (Left)</a></p>
             </div>
         </div>
         
         <!-- Third Decision Layer -->
         <div id="node4" class="step slide" data-x="-1500" data-y="-750">
+            <div class="slide-text">
+                <p>Node 4</p>
+                <br />
+                <p>Which option do you choose?</p>
+                <p><a href="#outcome1">Option 1 (Right)</a></p>
+                <p>or</p>
+                <p><a href="#outcome2">Option 2 (Left)</a></p>
+            </div>
+        </div>
+        <div id="node5" class="step slide" data-x="-2500">
+            <div class="slide-text">
+                <p>Node 5</p>
+                <br />
+                <p>Which option do you choose?</p>
+                <p><a href="#outcome3">Option 1 (Left)</a></p>
+                <p>or</p>
+                <p><a href="#outcome4">Option 2 (Down)</a></p>
+            </div>
+        </div>
+        <div id="node6" class="step slide" data-x="1500" data-y="750">
+            <div class="slide-text">
+                <p>Node 6</p>
+                <br />
+                <p>Which option do you choose?</p>
+                <p><a href="#outcome5">Option 1 (Left)</a></p>
+                <p>or</p>
+                <p><a href="#outcome6">Option 2 (Right)</a></p>
+            </div>
+        </div>
+        <div id="node7" class="step slide" data-x="2500">
+            <div class="slide-text">
+                <p>Node 7</p>
+                <br />
+                <p>Which option do you choose?</p>
+                <p><a href="#outcome7">Option 1 (Up)</a></p>
+                <p>or</p>
+                <p><a href="#outcome8">Option 2 (Right)</a></p>
+            </div>
+        </div>
+
+        <!-- Outcome Layer -->
+        <div id="outcome1" class="step slide" data-y="-750">
             <div class="slide-text">
                 <p>Game Over, You Lose... 1</p>
             </div>
@@ -53,7 +99,7 @@
                 <a href="#node1">START OVER</a>
             </div>
         </div>
-        <div id="node5" class="step slide" data-x="-2500">
+        <div id="outcome2" class="step slide" data-x="-2500" data-y="-750">
             <div class="slide-text">
                 <p>Game Over, You Lose... 2</p>
             </div>
@@ -61,7 +107,7 @@
                 <a href="#node1">START OVER</a>
             </div>
         </div>
-        <div id="node6" class="step slide" data-x="1500" data-y="750" >
+        <div id="outcome3" class="step slide" data-x="-3500">
             <div class="slide-text">
                 <p>Game Over, You Lose... 3</p>
             </div>
@@ -69,9 +115,41 @@
                 <a href="#node1">START OVER</a>
             </div>
         </div>
-        <div id="node7" class="step slide" data-x="2500">
+        <div id="outcome4" class="step slide" data-x="-2500" data-y="750">
             <div class="slide-text">
-                <p>Game Over, You Win!!!</p>
+                <p>Game Over, You Win!!! 4</p>
+            </div>
+            <div class="menu">
+                <a href="#node1">START OVER</a>
+            </div>
+        </div>
+        <div id="outcome5" class="step slide" data-y="750">
+            <div class="slide-text">
+                <p>Game Over, You Lose... 5</p>
+            </div>
+            <div class="menu">
+                <a href="#node1">START OVER</a>
+            </div>
+        </div>
+        <div id="outcome6" class="step slide" data-x="2500" data-y="750">
+            <div class="slide-text">
+                <p>Game Over, You Lose... 6</p>
+            </div>
+            <div class="menu">
+                <a href="#node1">START OVER</a>
+            </div>
+        </div>
+        <div id="outcome7" class="step slide" data-x="2500" data-y="-750">
+            <div class="slide-text">
+                <p>Game Over, You Lose... 7</p>
+            </div>
+            <div class="menu">
+                <a href="#node1">START OVER</a>
+            </div>
+        </div>
+        <div id="outcome8" class="step slide" data-x="3500">
+            <div class="slide-text">
+                <p>Game Over, You Lose... 8</p>
             </div>
             <div class="menu">
                 <a href="#node1">START OVER</a>
