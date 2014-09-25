@@ -9,6 +9,10 @@ background: radial-gradient(ellipse at center,  #b5bdc8 0,#828c95 36%,#28343b 10
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 );
 }
 
+#gameoverTextDay {
+    display: none;
+}
+
 /* styling for slides that are inactive */
 .impress-enabled .step {
     margin: 0;

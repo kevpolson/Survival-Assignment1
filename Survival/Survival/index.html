@@ -115,7 +115,8 @@
         </div>
         <div id="outcome4" class="step slide" data-x="-2500" data-y="1500">
             <div class="slide-text">
-                <p>Game Over, You Win!!! 4</p>
+                <p id="gameoverTextNight">Game Over, You were attacked and killed by a wolf...</p>
+                <p id="gameoverTextDay">You found a small town.  Many people look relieved and rush to help you out.  Congratulations You're Saved!!! 4</p>
             </div>
             <div class="menu">
                 <a href="#node1">START OVER</a>
@@ -153,9 +154,6 @@
                 <a href="#node1">START OVER</a>
             </div>
         </div>
-
-
-    
     </div>
 
     <!-- JavaScript Section -->
@@ -167,8 +165,12 @@
         function sleep() {
             nightTime = !nightTime;
             if (!nightTime) {
+                document.getElementById('gameoverTextDay').style.display = "inline";
+                document.getElementById('gameoverTextNight').style.display = "none";
                 alert("You awake to birds chirping and the sunlight from the entrance of the cave!");
             } else {
+                document.getElementById('gameoverTextNight').style.display = "inline";
+                document.getElementById('gameoverTextDay').style.display = "none";
                 alert("You awake to crickets chirping, pitch darkness and a growling outside the cave...");
             }
         }
