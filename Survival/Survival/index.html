@@ -68,7 +68,7 @@
                 <p>Cave</p>
                 <br />
                 <p>What will you do?</p>
-                <p><a href="">&nbsp;Sleep&nbsp;</a> or go back <a href="#caveEntrance">&nbsp;Exit Cave&nbsp;</a></p>
+                <p><a href="javascript:sleep()">&nbsp;Sleep&nbsp;</a> or go back <a href="#caveEntrance">&nbsp;Exit Cave&nbsp;</a></p>
             </div>
         </div>
         <div id="node6" class="step slide" data-x="1500" data-y="750">
@@ -160,7 +160,19 @@
 
     <!-- JavaScript Section -->
     <script src="js/impress.js"></script>
-    <script>impress().init();</script>
+    <script>
+        var nightTime = true;
+        impress().init();
+
+        function sleep() {
+            nightTime = !nightTime;
+            if (!nightTime) {
+                alert("You awake to birds chirping and the sunlight from the entrance of the cave!");
+            } else {
+                alert("You awake to crickets chirping, pitch darkness and a growling outside the cave...");
+            }
+        }
+    </script>
 
 </body>
 </html>
