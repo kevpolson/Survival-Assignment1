@@ -12,7 +12,7 @@
         <!-- First Decission Layer -->
         <div id="node1" class="step slide">
             <div class="slide-text">
-                <p>Node 1</p>
+                <p>There is a path spliting left and right.  To the left you can see outlines of mountains and to the right you hear running water.</p>
                 <br />
                 <p>Which direction will you go?</p>
                 <p><a href="#node2">&nbsp;Left&nbsp;</a> <a href="#node3">&nbsp;Right&nbsp;</a></p>
@@ -22,7 +22,7 @@
         <!-- Second Decision Layer -->
         <div id="node2" class="step slide" data-x="-1500">
             <div class="slide-text">
-                <p>Node 2</p>
+                <p>You arrive at the base of a mountain.  You can follow at trail up the mountain or you can continue to follow a path to the left. </p>
                 <br />
                 <p>Which direction will you go?</p>
                 <p><a href="#node4">&nbsp;&nbsp;Up&nbsp;&nbsp;</a> <a href="#node5">&nbsp;Left&nbsp;</a> or go back <a href="#node1">&nbsp;Right&nbsp;</a></p>
@@ -31,7 +31,7 @@
 
         <div id="node3" class="step slide" data-x="1500">
             <div class="slide-text">
-                <p>Node 3</p>
+                <p>The path starts to head down a small hill or to the right there are some stones that you could use to cross a river.</p>
                 <br />
                 <p>Which direction will you go?</p>
                 <p><a href="#node7">&nbsp;Right&nbsp;</a> <a href="#node6">&nbsp;Down&nbsp;</a> or go back <a href="#node1">&nbsp;Left&nbsp;</a></p>
@@ -41,7 +41,8 @@
         <!-- Third Decision Layer -->
         <div id="node4" class="step slide" data-x="-1500" data-y="-750">
             <div class="slide-text">
-                <p>Node 4</p>
+                <p>You climb up the mountain to a ridge and It is impossible for you to climb any higher. 
+                To the Left you can follow the ridge or to the right you could start climbing down the other side of the mountain</p>
                 <br />
                 <p>Which direction will you go?</p>
                 <p><a href="#outcome2">&nbsp;Left&nbsp;</a> <a href="#outcome1">&nbsp;Right&nbsp;</a> or go back <a href="#node2">&nbsp;Down&nbsp;</a></p>
@@ -49,7 +50,7 @@
         </div>
         <div id="node5" class="step slide" data-x="-2500">
             <div class="slide-text">
-                <p>Node 5</p>
+                <p>You arrive at another fork in the path.  You can travel down the base of the mountain or keep following the same path left.</p>
                 <br />
                 <p>Which direction will you go?</p>
                 <p><a href="#outcome3">&nbsp;Left&nbsp;</a> <a href="#caveEntrance">&nbsp;Down&nbsp;</a> or go back <a href="#node2">&nbsp;Right&nbsp;</a></p>
@@ -57,7 +58,8 @@
         </div>
         <div id="caveEntrance" class="step slide" data-x="-2500" data-y="750">
             <div class="slide-text">
-                <p>Cave entrance</p>
+                <p>As you descend the base of the mountain you find a cave entrance.  It is dark inside but could be a good place to rest.  
+                However, you can continue to decend the base.  There looks to be something in the distance</p>
                 <br />
                 <p>Which direction will you go?</p>
                 <p><a href="#cave">&nbsp;Enter Cave&nbsp;</a> <a href="#outcome4">&nbsp;Down&nbsp;</a> or go back <a href="#node2">&nbsp;&nbsp;Up&nbsp;&nbsp;</a></p>
@@ -73,7 +75,8 @@
         </div>
         <div id="node6" class="step slide" data-x="1500" data-y="750">
             <div class="slide-text">
-                <p>Node 6</p>
+                <p>As you head down the hill you reach a cliff.  It is impossible to climb down, however it sounds like there is a waterfall to the right and 
+                to the left looks to lead to a clearing.</p>
                 <br />
                 <p>Which direction will you go?</p>
                 <p><a href="#outcome5">&nbsp;Left&nbsp;</a> <a href="#outcome6">&nbsp;Right&nbsp;</a> or go back <a href="#node3">&nbsp;&nbsp;Up&nbsp;&nbsp;</a></p>
@@ -81,7 +84,8 @@
         </div>
         <div id="node7" class="step slide" data-x="2500">
             <div class="slide-text">
-                <p>Node 7</p>
+                <p>After cross the river you arrive at the base of a huge tree.  There appears to be a fort in the tree and a ladder to climb up to it.  
+                Or to the right it looks like you can cross another river using moss covered logs.</p>
                 <br />
                 <p>Which direction will you go?</p>
                 <p><a href="#outcome7">&nbsp;Up&nbsp;</a> <a href="#outcome8">&nbsp;Right&nbsp;</a> or go back <a href="#node3">&nbsp;Left&nbsp;</a></p>
@@ -91,7 +95,9 @@
         <!-- Outcome Layer -->
         <div id="outcome1" class="step slide" data-y="-750">
             <div class="slide-text">
-                <p>Game Over, You Lose... 1</p>
+                <p>You start to scale the other side of the mountain.  As you climb, a rock slide comes out of no where.</p>  
+                <p>You are falling and can't stop.</p> 
+                <p>Splat! You died...</p>
             </div>
             <div class="menu">
                 <a href="#node1">START OVER</a>
@@ -99,7 +105,9 @@
         </div>
         <div id="outcome2" class="step slide" data-x="-2500" data-y="-750">
             <div class="slide-text">
-                <p>Game Over, You Lose... 2</p>
+                <p>As you slowly walk along the ridge the rocks below your feet giveway.</p>
+                <p>You are falling and the ground is getting closer</p>
+                <p>and you are dead...</p>
             </div>
             <div class="menu">
                 <a href="#node1">START OVER</a>
@@ -107,7 +115,8 @@
         </div>
         <div id="outcome3" class="step slide" data-x="-3500">
             <div class="slide-text">
-                <p>Game Over, You Lose... 3</p>
+                <p>You continue to the left.  There is a bear on the path.  It starts you run at you and unfortunately you don't play dead.</p>
+                <p>The bear attacks you and now there is no need.</p>
             </div>
             <div class="menu">
                 <a href="#node1">START OVER</a>
@@ -115,16 +124,19 @@
         </div>
         <div id="outcome4" class="step slide" data-x="-2500" data-y="1500">
             <div class="slide-text">
-                <p id="gameoverTextNight">Game Over, You were attacked and killed by a wolf...</p>
-                <p id="gameoverTextDay">You found a small town.  Many people look relieved and rush to help you out.  Congratulations You're Saved!!! 4</p>
+                <p id="gameoverTextNight1">You continue down the base of the mountain.  You see a town in the distance but there is a wolf blocking your path.</p>
+                <p id="gameoverTextNight2">It rushes you and attacks.  You don't survive and you were so close...</p>
+                <p id="gameoverTextDay">You found a small town.  Many people look relieved and rush to help you out.  Congratulations You're Saved!!!</p>
             </div>
             <div class="menu">
-                <a href="#node1">START OVER</a>
+                <a href="#node1" onclick="reset();">START OVER</a>
             </div>
         </div>
         <div id="outcome5" class="step slide" data-y="750">
             <div class="slide-text">
-                <p>Game Over, You Lose... 5</p>
+                <p>You arrive in an open field.  In the distance you see a group of people wandering in the dark.  As you run towards them calling for 
+                help they notice you and slowly start to approach you.</p>
+                <p>They are ZOMBIES!!! and devour you...</p>
             </div>
             <div class="menu">
                 <a href="#node1">START OVER</a>
@@ -132,7 +144,9 @@
         </div>
         <div id="outcome6" class="step slide" data-x="2500" data-y="750">
             <div class="slide-text">
-                <p>Game Over, You Lose... 6</p>
+                <p>You reach a beautiful waterfall.  You decide to splash your face with some water.  Under water you see something shiny.  As you reach down it ends 
+                up being deeper than you thought.  The current strenght ends up pulling you in the water and you approach the waterfall.</p>
+                <p>You go over the ridge of the waterfall and hit your head on the rocks below.  No one ever saw you again...</p>
             </div>
             <div class="menu">
                 <a href="#node1">START OVER</a>
@@ -140,7 +154,12 @@
         </div>
         <div id="outcome7" class="step slide" data-x="2500" data-y="-750">
             <div class="slide-text">
-                <p>Game Over, You Lose... 7</p>
+
+
+                <p>You start to climb the ladder and reach the fort.  Inside is very small and looks to be a tree fort for children.</p>
+                <p>CRACK!</p>
+                <p>The branch supporting the fort has broken... The fort falls and breaks apon impact with the ground.</p> 
+                <p>A piece of wood has impaled your chest.  Pass out from loss of blood and die...</p>
             </div>
             <div class="menu">
                 <a href="#node1">START OVER</a>
@@ -148,7 +167,8 @@
         </div>
         <div id="outcome8" class="step slide" data-x="3500">
             <div class="slide-text">
-                <p>Game Over, You Lose... 8</p>
+                <p>You start to cross the river.  Halfway across you notice one of the logs feels different. Unfortunately for you it is was a crocodile resting.</p>
+                <p>It quickly attacks and that's it for you, you died... </p>
             </div>
             <div class="menu">
                 <a href="#node1">START OVER</a>
@@ -159,20 +179,30 @@
     <!-- JavaScript Section -->
     <script src="js/impress.js"></script>
     <script>
-        var nightTime = true;
         impress().init();
+
+        alert("You awaken lying on the ground.  Your head hurts and you can't remember what happened.  Looking to the sky you see a full moon through the trees of the forest surrounding you.");
+        var nightTime = true;
 
         function sleep() {
             nightTime = !nightTime;
             if (!nightTime) {
                 document.getElementById('gameoverTextDay').style.display = "inline";
-                document.getElementById('gameoverTextNight').style.display = "none";
+                document.getElementById('gameoverTextNight1').style.display = "none";
+                document.getElementById('gameoverTextNight2').style.display = "none";
                 alert("You awake to birds chirping and the sunlight from the entrance of the cave!");
             } else {
-                document.getElementById('gameoverTextNight').style.display = "inline";
+                document.getElementById('gameoverTextNight1').style.display = "inline";
+                document.getElementById('gameoverTextNight2').style.display = "inline";
                 document.getElementById('gameoverTextDay').style.display = "none";
                 alert("You awake to crickets chirping, pitch darkness and a growling outside the cave...");
             }
+        }
+        function reset() {
+            var nightTime = true;
+            document.getElementById('gameoverTextNight1').style.display = "inline";
+            document.getElementById('gameoverTextNight2').style.display = "inline";
+            document.getElementById('gameoverTextDay').style.display = "none";
         }
     </script>
 
